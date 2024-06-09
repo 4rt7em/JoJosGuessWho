@@ -19,8 +19,8 @@ body {
 
 .gallery img {
     width: 100%;
-    max-width: 100px; /* Максимальная ширина изображения */
-    max-height: 100px; /* Максимальная высота изображения */
+    max-width: 110px; /* Максимальная ширина изображения */
+    max-height: 110px; /* Максимальная высота изображения */
     height: auto;
     cursor: pointer;
     transition: filter 0.3s ease;
