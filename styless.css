@@ -32,9 +32,14 @@ body {
 }
 
 .button-container {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     display: flex;
     justify-content: center;
-    margin-top: 20px;
+    background-color: #ffffff; /* Цвет фона кнопок */
+    padding: 10px 0; /* Отступы внутри контейнера кнопок */
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1); /* Тень под кнопками */
 }
 
 button {
